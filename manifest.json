@@ -1,0 +1,19 @@
+{
+  "name": "Webpage TTS & Text Editor",
+  "description": "Reads highlighted text and converts it to speech and edits the text on a webpage by changing it's color, size, etc.",
+  "version": "1.0",
+  "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "" ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+  "icons": {
+    "16": "/images/text_icon_16.png",
+    "32": "/images/text_icon_32.png",
+    "48": "/images/text_icon_48.png",
+    "128": "/images/text_icon_128.png"
+  }
+}
